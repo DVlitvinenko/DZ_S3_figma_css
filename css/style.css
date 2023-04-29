@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {}
+
+.head {
+  margin-top: 40px;
+}
+
+.head-logo {}
+
+.head-logo-img {}
+
+.head-menu {}
+
+.head-menu-list-item {}
+
+.head-menu-item-link {}
+
+.content {
+  margin-top: 84px;
+  margin-bottom: 230px;
+}
+
+.content-info {}
+
+.content-title {}
+
+.content-txt {
+  margin-top: 17px;
+  margin-bottom: 37px;
+}
+
+.cotnetn-info-item {}
+
+.cotnetn-info-item-btn {}
+
+.cotnetn-info-link {}
+
+.content-img {}
+
+.logos {
+  padding: 97px 0px 96px 0px;
+}
+
+.logos-list {}
+
+.logos-list-item {}
+
+.logos-link {}
+
+.logos-link-img {}
