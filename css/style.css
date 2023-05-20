@@ -9,8 +9,20 @@ a {
 
 .top {}
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.center {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .head {
   margin-top: 40px;
+  display: flex;
+  gap: 500px;
 }
 
 .head-logo {}
@@ -19,29 +31,92 @@ a {
 
 .head-menu {}
 
+.head-menu-list {
+  display: flex;
+  gap: 36px;
+  list-style: none;
+}
+
 .head-menu-list-item {}
 
-.head-menu-item-link {}
+.head-menu-item-link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+  font-style: bold;
+}
+
+.head-menu-item-link:hover {
+  color: #F25822;
+}
+
+.head-menu-item-link:active {
+  color: #f08862;
+}
 
 .content {
   margin-top: 84px;
   margin-bottom: 230px;
+  display: flex;
+  gap: 39px;
 }
 
-.content-info {}
+.content-info {
+  max-width: 522px;
+}
 
-.content-title {}
+.content-title {
+  font-style: bold;
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
+}
 
 .content-txt {
   margin-top: 17px;
   margin-bottom: 37px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #888888;
 }
 
-.cotnetn-info-item {}
+.cotnetn-info-btn {
+  display: flex;
+  align-items: center;
+  gap: 72px;
+}
 
-.cotnetn-info-item-btn {}
+.cotnetn-info-item-btn {
+  font-size: 15px;
+  font-style: bold;
+  line-height: 18px;
+  color: #FFFFFF;
+  background: #F25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  padding: 16px 35px;
+  border: none;
+}
 
-.cotnetn-info-link {}
+.cotnetn-info-item-btn:hover {
+  background: #FFFFFF;
+  color: #F25822;
+  cursor: pointer;
+}
+
+.cotnetn-info-item-btn:active {
+  color: #FFFFFF;
+  background: #F25822;
+}
+
+.cotnetn-info-link {
+  font-size: 15px;
+  line-height: 18px;
+  font-style: bold;
+  color: #AAAAAA;
+  cursor: pointer;
+}
 
 .content-img {}
 
@@ -49,7 +124,11 @@ a {
   padding: 97px 0px 96px 0px;
 }
 
-.logos-list {}
+.logos-list {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+}
 
 .logos-list-item {}
 
